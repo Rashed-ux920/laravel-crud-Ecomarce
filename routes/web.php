@@ -9,4 +9,4 @@ Route::get('/shop',[directioncontroller::class, 'shop'])->name('shop');
 
 
 
-Route::get('/shop/cart',[]);
+Route::get('/shop/cart',[directioncontroller::class, 'cart'])->name('cart');
